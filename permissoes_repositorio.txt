@@ -1,0 +1,22 @@
+chmod 2775 hooks/
+chmod 775 hooks/*
+chmod 2775 branches/
+chmod g+rws COMMIT_EDITMSG 
+chmod g+rwS COMMIT_EDITMSG 
+chmod g=Srwx COMMIT_EDITMSG 
+chmod g+Srwx COMMIT_EDITMSG 
+chmod 664 COMMIT_EDITMSG 
+chmod g+s COMMIT_EDITMSG 
+chmod 664 description 
+chmod g+s description 
+chmod 644 description 
+chmod 664 description 
+chmod g+s description 
+chmod 664 HEAD 
+chmod g+s HEAD 
+chmod 2775 info
+chmod 2775 logs/
+chmod 2775 objects/
+chmod 2775 refs/
+chmod 2775 logs/
+
